@@ -8,7 +8,7 @@
   Também para facilitar no cadastro de clientes e funcionários, trazendo integridade aos dados de todos.
 
 ---
-Licença
+#Licença
 Este projeto é licenciado sob a Licença MIT.
 
 ## Contato
