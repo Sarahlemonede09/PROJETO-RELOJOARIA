@@ -1,9 +1,9 @@
 #Índice
 
-Descrição do Projeto
-Modelagem do Banco de Dados
-Licença
-Contato
+- Descrição do Projeto
+- Modelagem do Banco de Dados
+- Licença
+- Contato
 
 
 # **PROJETO RELOJOARIA**
@@ -17,65 +17,155 @@ Contato
 
 ---
 
+## Instalação
+
+### Pré-requisitos
+
+- Python (versão 3.10 ou superior)
+- mysql-connector
+- Banco de dados MySQL
+
+---
+
 ## Modelagem do Banco de Dados
-Abaixo está o diagrama ER do banco de dados.
+Abaixo está os modelos de banco de dados.
 
-Diagrama ER
+**Modelo conceitual**
+---
+![Modelo conceitual](https://github.com/Sarahlemonede)
 
-(Substitua com a URL de uma imagem hospedada ou local do diagrama ER)
+**Modelo lógico**
+---
+![Modelo lógico](https://github.com/)
 
-Estrutura das Tabelas
+---
 
-Tabela relojoaria
+## Estrutura das Tabelas
 
-id (PK): Identificador único da loja.
-nome: Nome completo da intituição.
-cnpj: Cadastro Nacional da Pessoa Jurídica (loja)
-endereço: local onde a loja fica.
+**Tabela `relojoaria`**
 
-Tabela Funcionário
+ -**id (PK)**: Identificador único da loja.
 
-id (PK): Identificador único do funcionário(matricula).
-nome: identificação do funcionário.
-cpf: conprovante de pessoa fisica do funcionário.
-função: função do funcionário (caixa, vendedor, gerente)
-telefone: contato do funcionário.
-email: email para contato profissional.
 
-Tabela Cadastro de Cliente
+- **nome**: Nome completo da intituição.
 
-id (PK): Identificador único da cliente cadastrado.
-nome: Nome do cliente.
-id(FK): Identificador da onde vai ser salvo o cadastro.
-cpf: comprovante de pessoa física do cliente.
-endereço: endereço para comprovar local de entrega se necessário do cliente.
-email: email para envio de boletos, confirmação de compras e promoções.
-telcell: telefone ou celular di cliente para contato com o próprio.
 
-Tabela Venda
+- **cnpj**: Cadastro Nacional da Pessoa Jurídica (loja)
 
-id (PK): Identificador único da venda.
-quant_prod: quantiadde de produtos vendidos.
-id (FK): identificador de onde vai ser lançado as informações.
-valor_unit: valor unitári de cada produto.
-valor_tot: valor total da venda.
 
-Tabela Produto
+- **endereço**: local onde a loja fica.
 
-id(PK): identificador único do  produto.
-nome: nome do produto.
-id(FK): identificador de onde as informações serão lançadas.
-tipo: tipo do produto.
-marca: marca do produto.
-valor_unid: valor da unidade do produto.
-modelo: modelo do produto.
-material: tipo de material utilizado da fabricação.
 
-Tabela Estoque
 
-id(PK): indentificador único do estoque.
-quant_armazenado: quantidade total armazenada no estoque.
-id(FK): identicador de onde as informações dos produtos vão vir.
+ **Tabela `Funcionário`**
+
+- **id (PK)**: Identificador único do funcionário(matricula).
+
+
+- **nome**: identificação do funcionário.
+
+
+- **cpf**: conprovante de pessoa fisica do funcionário.
+
+
+- **função**: função do funcionário (caixa, vendedor, gerente)
+
+
+- **telefone**: contato do funcionário.
+
+
+- **email**: email para contato profissional.
+
+
+
+- **Tabela `Cadastro de Cliente`**
+
+
+
+- **id (PK)**: Identificador único da cliente cadastrado.
+
+
+- **nome**: Nome do cliente.
+
+
+- **id(FK)**: Identificador da onde vai ser salvo o cadastro.
+
+
+- **cpf**: comprovante de pessoa física do cliente.
+
+
+- **endereço**: endereço para comprovar local de entrega se necessário do cliente.
+
+
+- **email**: email para envio de boletos, confirmação de compras e promoções.
+
+
+- **telcell**: telefone ou celular di cliente para contato com o próprio.
+
+
+
+**Tabela `Venda`**
+
+
+
+- **id (PK)**: Identificador único da venda.
+
+
+- **quant_prod**: quantiadde de produtos vendidos.
+
+
+- **id (FK)**: identificador de onde vai ser lançado as informações.
+
+
+- **valor_unit**: valor unitári de cada produto.
+
+
+- **valor_tot**: valor total da venda.
+
+
+
+**Tabela `Produto`**
+
+
+
+- **id(PK)**: identificador único do  produto.
+
+
+- **nome**: nome do produto.
+
+
+- **id(FK)**: identificador de onde as informações serão lançadas.
+
+
+- **tipo**: tipo do produto.
+
+
+- **marca**: marca do produto.
+
+
+- **valor_unid**: valor da unidade do produto.
+
+
+- **modelo**: modelo do produto.
+
+
+- **material**: tipo de material utilizado da fabricação.
+
+
+
+**Tabela `Estoque`**
+
+
+
+- **id(PK)**: indentificador único do estoque.
+
+
+- **quant_armazenado**: quantidade total armazenada no estoque.
+
+
+- **id(FK)**: identicador de onde as informações dos produtos vão vir.
+
+
 
 ---
 
@@ -85,6 +175,10 @@ Este projeto é licenciado sob a Licença MIT.
 
 ## Contato
 
-Desenvolvido por **Sarah Gabriela Lemos, Isaque Klehm, Felipe de Lima e Gabriel Casagrande**.  
+Desenvolvido por **Sarah Gabriela Lemos, Isaque Klehm, Felipe de Lima e Gabriel Casagrande**. 
+
+
 Email: srlemos16@gmail.com
+
+
 LinkedIn: https://www.linkedin.com/in/sarah-gabriela-lemos-289251236/
