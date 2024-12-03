@@ -1,4 +1,4 @@
-#Índice
+# **Índice**
 
 - Descrição do Projeto
 - Modelagem do Banco de Dados
@@ -32,11 +32,11 @@ Abaixo está os modelos de banco de dados.
 
 **Modelo conceitual**
 ---
-![Modelo conceitual](https://github.com/Sarahlemonede)
+![Modelo conceitual]([https://github.com/Sarahlemonede](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/MODELO-CONCEITUAL.BD.pdf))
 
 **Modelo lógico**
 ---
-![Modelo lógico](https://github.com/)
+![Modelo lógico]([https://github.com/](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/TABELA-FISICA.BD.pdf))
 
 ---
 
@@ -44,7 +44,7 @@ Abaixo está os modelos de banco de dados.
 
 **Tabela `relojoaria`**
 
- -**id (PK)**: Identificador único da loja.
+ - **id (PK)**: Identificador único da loja.
 
 
 - **nome**: Nome completo da intituição.
@@ -100,7 +100,7 @@ Abaixo está os modelos de banco de dados.
 - **email**: email para envio de boletos, confirmação de compras e promoções.
 
 
-- **telcell**: telefone ou celular di cliente para contato com o próprio.
+- **telcell**: telefone ou celular do cliente para contato com o próprio.
 
 
 
