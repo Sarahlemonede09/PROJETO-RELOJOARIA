@@ -78,7 +78,7 @@ Abaixo está os modelos de banco de dados.
 
 
 
-- **Tabela `Cadastro de Cliente`**
+ **Tabela `Cadastro de Cliente`**
 
 
 
