@@ -33,18 +33,24 @@
 ## Modelagem de Sistema
 Abaixo está os modelos de diagrama de sistema.
 
+**Diagrama Caso de Uso**
 ---
+![Caso de Uso](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/DIAGRAMA-CASO-DE-USO.png)
+
+**Diagrama de Sequência**
+---
+![Diagrama de Sequencia](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/DIAGRAMA-DE-SEQUENCIA.png)
 
 ## Modelagem do Banco de Dados
 Abaixo está os modelos de banco de dados.
 
 **Modelo conceitual**
 ---
-![Modelo conceitual]([https://github.com/Sarahlemonede](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/MODELO-CONCEITUAL.BD.pdf))
+![Modelo conceitual](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/MODELO-CONCEITUAL.BD.pdf)
 
-**Modelo lógico**
+**Modelo Físico**
 ---
-![Modelo lógico]([https://github.com/](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/TABELA-FISICA.BD.pdf))
+![Modelo Físico](https://github.com/Sarahlemonede09/PROJETO-RELOJOARIA/blob/main/TABELA-FISICA.BD.pdf)
 
 ---
 
