@@ -1,6 +1,8 @@
 # **Índice**
 
 - Descrição do Projeto
+- Instalação
+- Modelagem do Sistema
 - Modelagem do Banco de Dados
 - Licença
 - Contato
@@ -22,8 +24,14 @@
 ### Pré-requisitos
 
 - Python (versão 3.10 ou superior)
+- pip instal ttkbootstrap
 - mysql-connector
 - Banco de dados MySQL
+
+---
+
+## Modelagem de Sistema
+Abaixo está os modelos de diagrama de sistema.
 
 ---
 
